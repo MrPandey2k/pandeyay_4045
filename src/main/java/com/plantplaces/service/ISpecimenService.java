@@ -2,7 +2,7 @@ package com.plantplaces.service;
 
 import com.plantplaces.dto.SpecimenDTO;
 /*
- * CRUD operations for specimenss
+ * CRUD operations for specimens
  */
 public interface ISpecimenService {
 
@@ -17,6 +17,6 @@ public interface ISpecimenService {
 	/*
 	 * Persists given dto
 	 */
-	void save(SpecimenDTO speciment);
+	void save(SpecimenDTO specimenDTO);
 
 }
